@@ -1,0 +1,266 @@
+:root{
+  --background-color: #fff;
+  --background-light: #fff;
+  --shadow-color:rgba(0,0,0,0.2);
+  --primary-color:rgba(255,0,86);
+  --text-color:#0a0a0a0a;
+  --text-light:#575757;
+  --font-size: 15px;
+  --animation-speed: 1;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+.navbar{
+  height: 100px;
+  /* box-shadow: 0 3px 6px var(--shadow-color); */
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+body{
+  font-size: var(--font-size);
+}
+.container{
+  padding-inline: 15vw;
+}
+.orange{
+  color: lightsalmon;
+}
+.logo{
+  font-size: 1.5em;
+  color: black;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+.nav-button{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+/* .nav-button button{
+  height: 35px;
+  width: 65px;
+  padding: 5px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+} */
+.white{
+  background-color: #fff;
+  height: 35px;
+  width: 65px;
+  padding: 5px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.dark{
+  background-color: lightsalmon;
+  color: #fff;
+  height: 35px;
+  width: 65px;
+  padding: 5px;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.nav-links{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.nav-links a{
+  color: #000;
+  font-weight: bold;
+}
+.main-container{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; 
+  width: 100%;
+}.left{
+  width: 35%;
+  margin-top: 100px;
+}
+.left h1{
+  font-size: 60px;
+}
+.mid-pic{
+  height: 388px;
+  width: 406px;
+}
+.mid-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  gap: 50px;
+}
+.mid-para{
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  display: flex;
+  flex-direction:column ;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.mid-para h1{
+  font-size: 60px;
+}
+.mid-para p{
+  font-size:20px;
+}
+.mid-but{
+  background-color: lightsalmon;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.mid-card{
+  display: flex;
+  flex-direction:row ;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap:wrap;
+  margin-top: -20px;
+  gap: 50px;
+  
+}
+.card-height{
+  height: 200px;
+}
+.blog-container{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  width: 100%;
+}
+.blog-HP{
+  margin-top: 50px;
+  width: 40%;
+  text-align: center;
+}
+.blog-SP{
+  margin-top: 50px;
+  width: 40%;
+  text-align: center;
+}
+.blog-pic{
+  width:  550px;
+  height: 311.44px;
+  border-radius: 20px;
+}
+.mid-heading{
+  width: 90%;
+  text-align: left;
+  
+}
+.mid-view{
+  width: 90%;
+  text-align: right;
+  color: lightsalmon;
+}
+.touch-container{
+  margin-top: 100px;
+  background-color: rgb(224, 174, 154);
+  text-align: center;
+  width: 100%;
+  padding-top: 50px;
+  height: 300px;
+  
+}
+.touch-para{
+  font-size: 25px;
+  color: #575757;
+  margin-top: 20px; ;
+}
+.touch-input{
+  height: 40px;
+  width: 550px;
+  margin-top: 30px;
+}
+.touch-button{
+  color: #fff;
+  background-color: lightsalmon;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+.end-container{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+}
+.end-pics{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.end-image{
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+}
+.circle{
+  width: 250px;
+  height: 250px;
+  text-align: center;
+
+}
+.end-heading{
+  width: 80%;
+  text-align: left;
+  
+}
+.rep-card{
+  margin-top: 100px;
+}
+.recEnd-card{
+  margin-top: 50px;
+}
+/* .margin{
+  margin-top: 100px;
+} */
+/* .signNav{
+  margin-top: 10px;
+  position: fixed;
+} */
+ .ava{
+  margin-top: 50px;
+ }
+ .haedi{
+  margin-top: 30px;
+ }
